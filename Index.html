@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bambu Glass</title>
+    <link rel="stylesheet" href="paj1.css">
+    <script src="Pag1.js" defer></script> <!-- Asegúrate de usar defer para cargar el JS después de la carga del HTML -->
+</head>
+<body>
+    <header>
+        <img src="Bambuglasslogo.jfif" alt="Encabezado">
+        <div class="buscador">
+            <form action="/buscar" method="GET">
+                <input type="text" id="searchInput" name="q" placeholder="Buscar..." required>
+                <span class="borrar" onclick="borrarTexto()">&#10006;</span> <!-- Icono de borrar -->
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="Sugerencias.html">Sugerencias y comentarios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="introduccion">
+        <h1>Bambu Glass</h1>
+        <h2>¿Quiénes somos?</h2>
+        <p>
+            Al elegir armazones de bambúglass hechos con bambú 100% mexicano, estás apoyando a la industria local... 
+        </p>
+    </div>
+
+    <!-- Productos -->
+    <h3>Nuestros productos</h3>
+    <div id="productos" style="display: flex; justify-content: center; flex-wrap: wrap;">
+        <div class="producto">
+            <img src="img.jpg" alt="Lente">
+            <div class="detalles">
+                <h2>Lente</h2>
+                <p>Precio: 100$</p>
+                <button onclick="comprar('Lente', 100, 'img.jpg')">Comprar</button>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img.jpg" alt="Lente">
+            <div class="detalles">
+                <h2>Lente 2</h2>
+                <p>Precio: 150$</p>
+                <button onclick="comprar('Lente 2', 150, 'img.jpg')">Comprar</button>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img.jpg" alt="Lente">
+            <div class="detalles">
+                <h2>Lente 3</h2>
+                <p>Precio: 200$</p>
+                <button onclick="comprar('Lente 3', 200, 'img.jpg')">Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botón de "Ver más" -->
+    <a href="productos.html">
+        <button>Ver más -></button>
+    </a>
+
+    <footer>
+        <p>&copy; 2024 Bambu Glass. Todos los derechos reservados.</p>
+        <p>Contacto: bambuglass@gmail.com</p>
+    </footer>
+</body>
+</html>

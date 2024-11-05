@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bambu Glass</title>
+    <link rel="stylesheet" href="paj1.css">
+    <script src="Pag1.js"></script>
+    <!---cabeceraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+<header>
+    <img src="Bambuglasslogo.jfif" alt="Encabezado">
+    <div class="buscador">
+        <form action="/buscar" method="GET">
+            <br>
+            <div class="icon">
+                <a href="" class="icon">
+                  <ion-icon name="person-circle-outline"></ion-icon>
+                </a>
+              </div>
+              
+            <br>
+            <input type="text" id="searchInput" name="q" placeholder="Buscar..." required>
+            <span class="borrar" onclick="borrarTexto()">&#10006;</span> <!-- Icono de borrar -->
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+<!--aqui va las paginas-->
+<nav>
+    <ul>
+        <li><a href="Index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="Sugerencias.html">Sugerencias y comentarios</a></li>
+        <br>
+        <br>
+        <br>
+    </ul>
+</nav>
+   <!--aqui acaban las paginas-->
+</header>
+<!--cuerpooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo-->
+<h1>¡CONOCE NUESTROS NUEVOS MODELOS!</h1>
+<br>
+<div id="productos" style="display: flex; justify-content: center; flex-wrap: wrap;">
+        
+    <br>
+          <div class="producto">
+            <img src="img.jpg" alt="Lente">
+            <div class="detalles">
+              <h2>Lente</h2>
+              <p>Precio: x$ </p>
+              <button onclick="comprar('Lente1', 100)">Comprar</button>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img src="img.jpg" alt="Lente">
+            <div class="detalles">
+              <h2>Lente 2</h2>
+              <p>Precio: x$ </p>
+              <button onclick="comprar('Lente2', 100)">Comprar</button>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img src="img.jpg" alt="Lente">
+            <div class="detalles">
+              <h2>Lente 3</h2>
+              <p>Precio: x$ </p>
+              <button onclick="comprar('Lente3', 100)">Comprar</button>
+            </div>
+          </div>
+
+    </div>
+
+    <H2>TODOS LOS PRODUCTOS</H2>
+
+    <div id="productos" style="display: flex; justify-content: center; flex-wrap: wrap;">
+
+        <div class="producto">
+            <img src="img.png" alt="lente">
+            <div class="detalles">
+                <h2>lente 1</h2>
+                <p>precio x$</p>
+                <button onclick="comprar('lente1',100)">comprar</button>
+            </div>
+        </div>
+
+            <div class="producto">
+                <img src="img.png" alt="lente">
+                <div class="detalles">
+                    <h2>lente 5</h2>
+                    <p>precio x$</p>
+                    <button onclick="comprar('Lente2',100)">comprar</button>
+                </div>
+            </div>
+            
+            <div class="producto">
+                <img src="img.png" alt="lente">
+                <div class="detalles">
+                    <h2>lente 6</h2>
+                    <p>precio x$</p>
+                    <button onclick="comprar('Lente3',100)">comprar</button>
+                </div>
+            </div>
+
+            <div class="producto">
+                <img src="img.png" alt="lente">
+                <div class="detalles">
+                    <h2>lente 6</h2>
+                    <p>precio x$</p>
+                    <button onclick="comprar('Lente4',100)">comprar</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="img.png" alt="lente">
+                <div class="detalles">
+                    <h2>lente 6</h2>
+                    <p>precio x$</p>
+                    <button onclick="comprar('Lente5',100)">comprar</button>
+                </div>
+            </div>
+
+        </div>
+        <p>El producto sera enviado en cuanto se tenga listo haci que puede tardar unos dias en llegar </p>
+
+<!--aqui acaba el cuerpooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo-->
+<footer>
+    <br>
+    <br><br><br>
+    <footer class="footer">
+        <div>
+        <ul class="Social-icon">
+            <li class="icon-elemen">
+                <a href="" class="icon">
+                    <ion-icon name="logo-youtube" role="img" class="md hydrated"></ion-icon>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul class="Social-icon">
+            <li class="icon-elemen">
+                <a href="https://www.instagram.com/bambu_glass_/profilecard/?igsh=aWkydTh1OXUyMmM0" class="icon">
+                    <ion-icon name="logo-instagram" role="img" class="md hydrated"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        </div>
+        <div>
+        <ul class="Social-icon">
+            <li class="icon-elemen">
+                <a href="" class="icon">
+                    <ion-icon name="logo-whatsapp" role="img" class="md hydrated"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        </div>
+        <div>
+        <ul class="Social-icon">
+            <li class="icon-elemen">
+                <a href="" class="icon">
+                    <ion-icon name="mail-outline" role="img" class="md hydrated"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        </div>
+        <div>
+        <ul class="Social-icon">
+            <li class="icon-elemen">
+                <a href="" class="icon">
+                    <ion-icon name="logo-facebook" role="img" class="md hydrated"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        </div>
+    <p>&copy; 2024 Bambu Glass. Todos los derechos reservados.</p>
+    <p>Contacto: bambuglass@gmail.com</p> 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+</div></div></div></div></div></div></body></html>
+</footer>
+</body>
+</html>

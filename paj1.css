@@ -1,0 +1,202 @@
+/*cabecera*/
+header{
+  background-color: #f4f8f2  ;
+font-family: monospace;
+padding: auto;
+
+}
+
+.icon {
+position: absolute;
+transform: translate(1800%, -95%);
+font-size: 40px; 
+color: #84a86c  ;
+
+}
+header img {
+margin: 2%;
+  width: 195px; /* Ajusta el tamaño de la imagen como necesites */
+  height: 135px;
+}
+.buscador {
+  position: absolute;
+  top: 15%; /* Centra verticalmente */
+  left: 50%; /* Centra horizontalmente */
+  transform: translate(-50%, -50%); /* Ajuste para centrar completamente */
+  font-family: monospace;
+
+}
+.buscador input {
+  padding: 10px;
+  font-size: 16px;
+}
+.borrar {
+  cursor: pointer;
+  margin-left: -30px; /* Ajusta según el espacio */
+  color: #888; /* Color del icono */
+
+}
+/*pagunaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaas*/
+header nav ul {
+list-style-type: none;
+padding: 0;
+      width: 80%; /* Puedes ajustar el ancho */
+      max-width: 700px; /* Máximo ancho */
+      margin: 0 auto; /* Márgenes automáticos */
+      text-align: center; /* Centra el texto */
+      
+}
+header nav ul li {
+display: inline;
+margin-right: 10px;
+}
+header nav ul li a {
+text-decoration: none;
+color: #000000;
+padding: 5px 10px;
+border-radius: 5px;
+background-color: #ffffff ; 
+}
+header nav ul li a:hover {
+background-color:  #ffffff  ; 
+color:  #9cb084 ;
+}
+/*pagunassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+header button{
+ width: 90px;
+ height: 45px;
+ background-color: #92a688 ;
+ color:#f4f8f2 ;
+ font-size: large;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-family: monospace;
+}
+header button :hover{
+  background-color:   #84a96c ;
+  font-family: monospace;
+}
+
+/*cabecera*/
+
+/*body*/
+
+h3{
+  text-align: center;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.introduccion {
+  background-color: #c0cbbb ; /* Fondo suave */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px; /* Bordes redondeados */
+  text-align: center; /* Centra el texto */
+  font-family: monospace;
+}
+h2 {
+  color: #343a40; /* Color del título */
+}
+p {
+  color: #6b6b6b; /* Color del texto */
+  line-height: 1.6; /* Espaciado entre líneas */
+}
+button{
+background-color: #84a96c ;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+button:hover{
+background-color: #9cb084;
+}
+
+/*productoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooos*/
+.producto {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+}
+
+.producto img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.producto .detalles {
+  flex-grow: 1;
+}
+
+.producto h2 {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.producto p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.producto button {
+  background-color: #84a96c ;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 195px;
+}
+
+.producto button:hover {
+  background-color: #b1c3a5 ;
+}
+
+.boton{
+
+color: #84a86c;
+}
+/* aqui acaban los productooooooooooooooooooooooooooooooooooooooooooooooooooooooooos*/
+
+
+/*aqui acaba el body*/
+
+/*piesera*/
+
+footer{
+  background-color: #0e0e0e;
+  color: #ffff;
+  text-align: center;
+  padding: auto;
+  height: auto;
+}
+footer a{
+  color: white;
+}
+
+footer ul{
+  color: black;
+  position: relative;
+text-align:center;
+margin-left: -78%;
+margin-bottom: 2.5%;
+}
+/*piesera*/

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bambu Glass</title>
+    <link rel="stylesheet" href="paj1.css">
+    <script src="Pag1.js"></script>
+    <!---cabeceraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+<header>
+    <img src="Bambuglasslogo.jfif" alt="Encabezado">
+    <div class="buscador">
+        <form action="/buscar" method="GET">
+            <br>
+            <div class="icon">
+                <a href="" class="icon">
+                  <ion-icon name="person-circle-outline"></ion-icon>
+                </a>
+              </div>
+              
+            <br>
+            <input type="text" id="searchInput" name="q" placeholder="Buscar..." required>
+            <span class="borrar" onclick="borrarTexto()">&#10006;</span> <!-- Icono de borrar -->
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+<!--aqui va las paginas-->
+<nav>
+    <ul>
+        <li><a href="Index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="Sugerencias.html">Sugerencias y comentarios</a></li>
+        <br>
+        <br>
+        <br>
+    </ul>
+</nav>
+   <!--aqui acaban las paginas-->
+</header>
+    <body>
+
+
+        <h1>Quejas y sujerencias</h1><br><br><br><br>
+        
+        
+        <form action="https://formsubmit.co/diegorodriguezlozada435@gmail.com" method="POST">
+    <form action="/submit_form" method="post">
+        <label for="nombre"><h2>Nombre:</h2></label>
+        <input type="text" id="nombre" name="name" required><br><br>
+
+        <label for="correo"><h2>Correo Electrónico:</h2></label>
+        <input type="email" id="correo" name="mail" required><br><br>
+
+        <label for="comentario"><h2>Comentario:</h2></label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br><br>
+        <button type="post" name="button">Enviar</button>
+        
+        </form>
+
+    <!--peseraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+       
+    </body>
+    </html>
